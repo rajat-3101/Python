@@ -1,0 +1,119 @@
+Q1. Why do we call Python as a general purpose and high-level programming language?
+Ans.Python is called high level language because it convets human redable code to machine level code
+    that computer understands i.e binary(0,1) and it is general purpose as well since it is widely used
+    for machine learning and data science because of its somplicity and it is easy to begin with for freshers
+    as well.
+Q2. Why is Python called a dynamically typed language?
+Ans. Python is called dynamically typed language because the python interpreter does not know about the 
+     data type of the variables.
+Q3. List some pros and cons of Python programming language?
+
+pros :  1 . Python is easy of to learn.
+        2 . Python has a large open source community.
+        3 . It has large varities of libraries be it data science or machine learning
+
+cons :  1 . Python is slower than some modern high level languages like c++ due to its dynamically typed nature.
+        2 . It is not suitable for the projects where security is a major concern.
+        3 . It has complex multithreading.
+
+Q4. In what all domains can we use Python?
+Ans. Python can be used in Data Science , Machine learing , IOT , computer vision , scripting, web development , etc.
+
+Q5. What are variable and how can we declare them?
+Ans. Variables are entity that store value in the primary memory of the device during runtime.
+    a=5
+    b="This is python variable assignment"
+
+Q6. How can we take an input from the user in Python?
+Ans. name = input("Enter your name")
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+Ans. String
+Q8. What is type casting?
+Ans. Type casting is a process of converting a variable of any data type to another type.
+      int('50') #casting a string into integer
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+Ans. yes we can take more than one input form the user by using split() method with input.
+    for example : x, y, z = input("Enter three numbers: ").split()
+
+Q10. What are keywords?
+Ans. Keywords are the reserved words that are already defined by the language and can not used as a
+     variable or function name.
+Q11. Can we use keywords as a variable? Support your answer with reason.
+     No, we can not use keywords as variables as keywords are reserved words.
+     
+Q12. What is indentation? What's the use of indentaion in Python?
+Ans. Indentation is way of making code more readable by giving proper spaces and line gaps in the code.
+     In Pyhton the indentation is used to indicate the block of code whether it is in conditionals or in loops.
+
+     for Examlple: 
+                    if n>0:
+                        print("n is a natural number")
+
+Q13. How can we throw some output in Python?
+Ans. we can use python's inbuilt function print() to display output in terminal.
+    for Example : print("Hello World")
+
+Q14. What are operators in Python?
+Ans. operator in python are used to perform operations variables.
+    There are several types of operators in python like Arithmetic operators,Assignment operators, Comparison operators, Logical operators,etc.
+
+    for Examlple : +,-,*,/ are the Arithmetic operators that are used to perform operations on Variables
+                 : 2+4, 4-2 , etc.
+
+
+Q15. What is difference between / and // operators?
+Ans. / is normal divison operator that returns the result with the digits after the decimal.
+     for Example :  12/5 = 2.4
+
+     // is a Floor division operator that rounds the result down to the nearest whole number
+      for Example : 12//5 = 2
+      but if any of the operand is negative the result will be rounded of the upper nearest whole number
+      for Example : -12//5 = -3
+
+Q16. Write a code that gives following as an output.
+
+iNeuroniNeuroniNeuroniNeuron
+
+Ans.
+        for n in range(4):
+            print("iNeuron")
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+Ans. 
+        n= int(input("Enter a number"))
+        if n%2==0:
+            print("Number is even")
+        else:
+            print("Number is odd")
+
+
+Q18. What are boolean operator?
+Ans. Boolean operators are those who have values either True or Flase.
+
+Q19. What will the output of the following?
+
+1 or 0 = 1
+
+0 and 0 = 0
+
+True and False and True = False
+
+1 or 0 or 0 = 1
+Q20. What are conditional statements in Python?
+Ans. conditional statements are the set of code, if the conditions are met the code inside the consditionals block will execute otherwise not.
+    for Example : 
+                    if n%2==0:          # since condition is true the code inside if block will execute
+                            print("number is even") 
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+Ans. if, elif and else are the conditionals statements that are used to check for conditions of variables and execute the code inside the block.
+
+    for Examlple: check for user and print its role
+
+                  if role == "student":
+                        print("Role is student")
+                  elif role == "teacher":
+                        print("Role is teacher")
+                  else:
+                        print("Role is another user")
